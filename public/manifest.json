@@ -1,12 +1,12 @@
 {
   "id": "/",
-  "name": "ALL IN ONE EXPRESS",
-  "short_name": "AIO Express",
+  "name": "ALL IN ONE Customer",
+  "short_name": "AIO CUS",
   "description": "Track your ALL IN ONE EXPRESS parcels and delivery status.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "theme_color": "#CC4E00",
+  "theme_color": "#F4F7FC",
   "background_color": "#F4F7FC",
   "prefer_related_applications": false,
   "icons": [

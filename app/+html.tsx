@@ -14,14 +14,19 @@ export default function Root({ children }: { children: ReactNode }) {
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="theme-color" content="#CC4E00" />
+        <meta name="theme-color" content="#F4F7FC" />
+        <meta
+          name="theme-color"
+          content="#0B1220"
+          media="(prefers-color-scheme: dark)"
+        />
         <meta
           name="description"
           content="Track your ALL IN ONE EXPRESS parcels and delivery status."
         />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="AIO Express" />
+        <meta name="apple-mobile-web-app-title" content="AIO CUS" />
         <link rel="manifest" href="/manifest.json" />
         <link rel="apple-touch-icon" href="/pwa-180.png" />
 
@@ -46,10 +51,10 @@ export default function Root({ children }: { children: ReactNode }) {
 
 const responsiveBackground = `
 body {
-  background-color: #fff;
+  background-color: #F4F7FC;
 }
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #000;
+    background-color: #0B1220;
   }
 }`;
